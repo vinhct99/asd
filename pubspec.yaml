@@ -1,0 +1,54 @@
+name: taskmanagement
+description: Mini veco project
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  sticky_headers: "^0.3.0"
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # google_fonts: ^2.3.2
+  flutter_svg: ^0.22.0
+  image: ^3.1.3
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  syncfusion_flutter_datepicker: ^19.4.56
+  localization: ^2.0.0
+  provider: ^6.0.5
+  html: ^0.15.4
+  js_interop: ^0.0.1
+  logger: ^2.0.2+1
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Black.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
